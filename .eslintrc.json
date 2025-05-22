@@ -1,0 +1,4 @@
+{
+    "extends": "@jejebecarte",
+    "ignorePatterns": ["dist", "pnpm-lock.yaml"]
+}

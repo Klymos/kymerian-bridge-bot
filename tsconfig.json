@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "outDir": "./dist",
+        "resolveJsonModule": true,
+        "preserveConstEnums": true,
+        "strict": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitReturns": true,
+        "allowUnreachableCode": false,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "allowJs": false,
+        "skipLibCheck": true,
+        "isolatedModules": true,
+        "baseUrl": "",
+        "paths": {
+            "@blacklist/*": ["./src/blacklist/*"],
+            "@classes/*": ["./src/classes/*"],
+            "@events/*": ["./src/events/*"],
+            "@requests/*": ["./src/requests/*"],
+            "@util/*": ["./src/util/*"]
+        }
+    }
+}
