@@ -1,20 +1,9 @@
-<h1 align="center">Miscellaneous Guild Bridge</h1>
+<h1 align="center">Kymerian Guild Bridge</h1>
 
 <p align="center">
     A bot used to Bridge between Discord and Hypixel guild chats.
 </p>
 
-<h3 align="center">
-    <a href="https://github.com/MiscGuild/bridge/stargazers">
-        <img alt="Stars" src="https://img.shields.io/github/stars/MiscGuild/bridge?color=blue"/>
-    </a>
-    <a href="https://github.com/MiscGuild/bridge/forks">
-        <img alt="Forks" src="https://img.shields.io/github/forks/MiscGuild/bridge">
-    </a>
-    <a href="https://discord.gg/dEsfnJkQcq">
-        <img alt="Guild Discord" src="https://img.shields.io/discord/522586672148381726?label=discord&color=blue&logo=discord&logoColor=blue"/>
-    </a>
-</h3>
 
 > [!Warning]
 > This application will log into Minecraft using Mineflayer, a JavaScript API for Minecraft. This may be against the rules of some servers and could result in punishment. All contributors to this repository are not liable for damages, and no warranty is provided under the [MIT License](https://github.com/MiscGuild/bridge/blob/master/LICENSE).
@@ -62,7 +51,7 @@ $ npm install -g pnpm
 3. Clone the repository into a directory of your choice.
 
 ```bash
-$ git clone https://github.com/MiscGuild/bridge.git
+$ git clone https://github.com/Klymos/kymerian-bridge-bot
 ```
 
 4. Enter the new directory and install packages.
@@ -108,18 +97,6 @@ $ pnpm run pm2:kill
 
 Please refer to the [PM2 documentation](https://pm2.keymetrics.io/docs/usage/quick-start/) for more configuration options and information about PM2.
 
-## Contributing
-
-Pull requests are welcome. If you would like to chat with other developers please join our [Discord](https://discord.gg/bHFWukp) and go to `#programming-talk`.
-
-Before submitting your changes for review, please ensure:
-
--   The application is fully functional, and all your code has been thoroughly tested to avoid potential bugs or security vulnerabilities.
--   Your commit messages adhere to the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/).
-
-### Issues and Bug Reports
-
-To raise an issue or bug report, please contact a developer or [open an issue](https://github.com/MiscGuild/bridge/issues).
 
 ## Acknowledgements
 
@@ -127,6 +104,7 @@ Parts of this project use code from the following repositories:
 
 -   [Hychat Self-Host](https://github.com/hychat-mc/self-host) under the MIT License.
 -   [Hypixel API TypeScript](https://github.com/unaussprechlich/hypixel-api-typescript) under the MIT License.
+-   [MiscGuild bridge](https://github.com/MiscGuild/bridge) under MIT license
 
 ## License
 
